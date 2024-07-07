@@ -1,0 +1,26 @@
+/* banner style */
+.banner{
+    background-image: url("../assets/images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    color: white;
+    width: 1365px;
+    height: 600px;
+    margin: 50px 280px;
+}
+#banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: merriweather;
+    text-align: center;
+    padding-top: 150px;
+}
+.banner-title{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.banner-text{
+    margin-top: 5px;
+    font-size: 72px;
+}
