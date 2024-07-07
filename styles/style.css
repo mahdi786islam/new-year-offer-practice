@@ -64,3 +64,54 @@
     max-width: 802px;
     max-height: 500px;
 }
+.Join-Party{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url("../assets/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1365px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.Join-Party-Content{
+    margin-top: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 0px;
+
+}
+
+.Join-Party-Content h1{
+    font-family: merriweather;
+    font-size: 64px;
+    color: white;
+}
+.Join-Party-Content p{
+    margin-top: 0px;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+.Join-Party-Content span{
+    font-family: "Inter";
+    font-weight: bold;
+    background-color: none;
+    font-size: 20px;
+    color: white;
+}
+.Year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
