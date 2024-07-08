@@ -115,3 +115,49 @@
     margin-left: 80px;
 }
 
+.place-info-container{
+    width: 1365px;
+    height: 482px;
+    /* border: 2px solid black; */
+    border-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    
+}
+.place-info-container button{
+    width: 180px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    margin-top: 80px;
+}
+
+.place-info-p{
+    margin-bottom: 2px;
+}
+
+.place-info{
+    color: rgb(255, 0, 0);
+    
+}
