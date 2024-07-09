@@ -165,14 +165,13 @@
 .new-offer-section{
     width: 1365px;
     height: 463px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
 }
 .coming-soon{
     width: 393px;
     height: 100%;
-    /* border: 2px solid green; */
     margin-top: 70px;
 }
 .coming-soon h3{
@@ -191,7 +190,6 @@
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    /* border: 2px solid red; */
     margin-top: 0px;
 }
 .coming-soon p{
@@ -245,9 +243,10 @@
 .holiday-sale-section{
     width: 1365px;
     height: 986.07px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 120px auto;
     text-align: center;
+    position: relative;
 }
 .holiday-sale-text h3{
     color: rgb(7, 2, 17);
@@ -276,6 +275,26 @@
     border-radius: 16px 0px 16px 16px;
     background: rgb(255, 0, 0);
     position: absolute;
-   
+    top: 77%;
+    }
 
+.gift-box{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#gift-box{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#discount-tag{
+    margin-top: 160px;
+    margin-left: 250px;
+    height: 250px;
+    width: 250px;
 }
